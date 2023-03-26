@@ -1,0 +1,11 @@
+<%-include("partiarls/header")-%>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <label for="blogTitle"><strong>Title:</strong></label>
+    <input type="text" class="form-control mt-2" name="blogTitle">
+    <label for="blogText"><strong>Text:</strong></label>
+    <textarea id="blogText" class="form-control me-2" name="blogText" rows="12"></textarea>
+
+    <input class="btn btn-primary mt-3" type="submit" name="blogSubmit">
+</form>
+<%-include("partiarls/footer")-%>
